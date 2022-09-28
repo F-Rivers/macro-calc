@@ -1,3 +1,7 @@
+# Resources
+
+https://tailwindcss.com/docs/installation
+
 # Getting Started with Create React App
 
 This project was bootstrapped with
