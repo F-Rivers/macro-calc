@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import * as React from "react";
+import TextField from "@mui/material/TextField";
 
 function App() {
 	return (
@@ -9,6 +11,7 @@ function App() {
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
+				<TextField id='outlined-basic' label='18-80' variant='outlined' />
 				<a
 					className='App-link'
 					href='https://reactjs.org'
