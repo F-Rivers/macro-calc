@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import * as React from "react";
-import RowRadioButtonsGroup from "./input";
+import RowRadioButtonsGroup from "./Input";
 import { Container } from "@mui/system";
 
 function App() {
@@ -9,9 +9,8 @@ function App() {
 		<div className='App'>
 			<header className='App-header'>
 				<img src={logo} className='App-logo' alt='logo' />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
+				<p className='text-red'>Calculate daily micronutrient requirements</p>
+				{/* this container houses the components from ./input.js */}
 				<Container maxWidth='sm' className='bg-graylight'>
 					<RowRadioButtonsGroup></RowRadioButtonsGroup>
 				</Container>

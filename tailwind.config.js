@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/*.{js,ts,jsx,tsx}"],
+	content: ["./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		screens: {
 			sm: "480px",
@@ -23,6 +23,10 @@ module.exports = {
 			graylight: "#d3dce6",
 			white: "#f8fafc",
 			red: "#b91c1c",
+		},
+		fontFamily: {
+			sans: ["Graphik", "sans-serif"],
+			serif: ["Merriweather", "serif"],
 		},
 		extend: {},
 	},
